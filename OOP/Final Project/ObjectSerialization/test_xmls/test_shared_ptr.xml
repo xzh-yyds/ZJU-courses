@@ -1,0 +1,12 @@
+<serialization>
+    <std_shared_ptr>
+        <std_vector>
+            <int val="31"/>
+            <int val="32"/>
+            <int val="33"/>
+            <int val="34"/>
+            <int val="35"/>
+            <int val="36"/>
+        </std_vector>
+    </std_shared_ptr>
+</serialization>

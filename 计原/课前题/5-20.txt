@@ -1,0 +1,21 @@
+Assume an 8Kx8bits memory is composed of 2Kx4bit chips. The first address of the chip which contains the address 0B1FH is (____).
+A：0700h
+B：0800h
+C：0600h
+D：0000h
+答案：
+
+Consider a virtual memory system with 32-bit virtual byte address, 4KB/page, 32 bits each entry. Then, the total size of page table needs (____).
+A：4KB
+B：1MB
+C：4MB
+D：8MB
+答案：
+
+Consider a virtual memory system with 32-bit virtual byte address, 4KB/page, 64 bits each entry.
+The physical memory is 1024MB. Then, the total size of page table needs (____).
+A：4MB
+B：about 12MB
+C：16MB
+D：32MB
+答案：

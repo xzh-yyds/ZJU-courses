@@ -1,0 +1,8 @@
+Hello, world!
+wawawa
+2020.3.7
+Project1
+global information:
+%$ The number of words: 24
+%$ The number of lines: 8
+%$ the number of characters: 144

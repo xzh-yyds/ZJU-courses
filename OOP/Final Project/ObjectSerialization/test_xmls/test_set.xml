@@ -1,0 +1,16 @@
+<serialization>
+    <std_set>
+        <std_vector>
+            <std_string val="wa"/>
+            <std_string val="wa wa"/>
+            <std_string val="wa wa wa"/>
+            <std_string val="hello"/>
+        </std_vector>
+        <std_vector>
+            <std_string val="wawa"/>
+            <std_string val="wa"/>
+            <std_string val="wa wa wa"/>
+            <std_string val="hello world"/>
+        </std_vector>
+    </std_set>
+</serialization>

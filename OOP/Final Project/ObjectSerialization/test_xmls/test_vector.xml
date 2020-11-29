@@ -1,0 +1,16 @@
+<serialization>
+    <std_vector>
+        <std_list>
+            <float val="1.200000"/>
+            <float val="1.300000"/>
+            <float val="1.400000"/>
+            <float val="1.500000"/>
+        </std_list>
+        <std_list>
+            <float val="2.200000"/>
+            <float val="2.300000"/>
+            <float val="2.400000"/>
+            <float val="2.500000"/>
+        </std_list>
+    </std_vector>
+</serialization>

@@ -1,0 +1,12 @@
+<serialization>
+    <std_unique_ptr>
+        <std_vector>
+            <int val="21"/>
+            <int val="22"/>
+            <int val="23"/>
+            <int val="24"/>
+            <int val="25"/>
+            <int val="26"/>
+        </std_vector>
+    </std_unique_ptr>
+</serialization>

@@ -1,0 +1,14 @@
+<serialization>
+    <std_pair>
+        <first val="hello world"/>
+        <second>
+            <std_vector>
+                <char val="~"/>
+                <char val="Q"/>
+                <char val="A"/>
+                <char val="Q"/>
+                <char val="~"/>
+            </std_vector>
+        </second>
+    </std_pair>
+</serialization>

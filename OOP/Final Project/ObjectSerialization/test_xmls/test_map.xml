@@ -1,0 +1,26 @@
+<serialization>
+    <std_map>
+        <std_map_item>
+            <key val="Hello world"/>
+            <value>
+                <std_vector>
+                    <int val="12"/>
+                    <int val="13"/>
+                    <int val="14"/>
+                    <int val="15"/>
+                </std_vector>
+            </value>
+        </std_map_item>
+        <std_map_item>
+            <key val="wa wa wa"/>
+            <value>
+                <std_vector>
+                    <int val="12"/>
+                    <int val="13"/>
+                    <int val="14"/>
+                    <int val="15"/>
+                </std_vector>
+            </value>
+        </std_map_item>
+    </std_map>
+</serialization>

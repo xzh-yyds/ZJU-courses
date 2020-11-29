@@ -1,0 +1,17 @@
+<serialization>
+    <idx>
+        <int val="12"/>
+    </idx>
+    <name>
+        <std_string val="Zhang San"/>
+    </name>
+    <data>
+        <std_vector>
+            <double val="3.100000"/>
+            <double val="3.200000"/>
+            <double val="3.300000"/>
+            <double val="3.400000"/>
+            <double val="3.500000"/>
+        </std_vector>
+    </data>
+</serialization>

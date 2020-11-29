@@ -1,0 +1,14 @@
+-------2020.04.22.--------------
+(15%)Design：We wish to add the instruction Jmlr to the multicycle datapath. 
+Add any necessary datapath and control signals to the Figure. 
+The instruction is described as:
+Jmlr    $rd, ofs($rs)    #Here $rs,$rd is general register.
+Execute: 
+①$rd = PC + 4;
+②PC = Memory[$rs+ofs]
+⒈(3%)Machine code in Binary；
+1  0  9  8  7  6  5  4  3  2  1  0  9  8  7  6  5  4  3  2  1  0  9  8  7  6  5  4  3  2  1  0
+OpCode  $rs  $rd  ofs
+7  6  5  4  3  2  1  0  7  6  5  4  3  2  1  0  7  6  5  4  3  2  1  0  7  6  5  4  3  2  1  0
+⒉(4%) show what changes are needed to support Jmlr in the single cycle datapath.
+⒊(8%)Design control: FSM

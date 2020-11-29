@@ -1,0 +1,16 @@
+<serialization>
+    <std_list>
+        <std_set>
+            <int val="13"/>
+            <int val="14"/>
+            <int val="15"/>
+            <int val="16"/>
+        </std_set>
+        <std_set>
+            <int val="21"/>
+            <int val="22"/>
+            <int val="23"/>
+            <int val="24"/>
+        </std_set>
+    </std_list>
+</serialization>

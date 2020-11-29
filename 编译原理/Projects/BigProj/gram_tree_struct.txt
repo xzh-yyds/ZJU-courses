@@ -1,0 +1,29 @@
+---the structure of the grammar tree---
+
+struct GrammarTreeNode{
+	string content;
+	string name;
+	int line_no;
+	GrammarTreeNode* left;
+	GrammarTreeNode* right;
+}
+
+content: 语法节点的内容
+name: 语法节点的名字（某终结符或者非终结符）
+line_no: 语法节点所在行号
+left: 下一级节点
+right: 后继节点（同一级）
+
+e.g.
+1)
+A -> A1 A2 A3
+	A
+   /
+  A1->A2->A3
+
+2)
+n -> n + 1 | 1
+1+1+1
+	n -> + -> 1
+   /
+  1 -> + -> 1

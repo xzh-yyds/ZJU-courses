@@ -1,0 +1,9 @@
+<serialization>
+    <std_queue>
+        <unsigned_int val="12"/>
+        <unsigned_int val="13"/>
+        <unsigned_int val="14"/>
+        <unsigned_int val="15"/>
+        <unsigned_int val="16"/>
+    </std_queue>
+</serialization>
