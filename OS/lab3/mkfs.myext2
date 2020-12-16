@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# losetup -d /dev/loop0
+# losetup /dev/loop0 $1
+mkfs.ext2 $1
+# dd if=/dev/loop0 of=./tmpfs bs=1K count=2
+./changeMN $1 ./tmpfs 
+# dd if=./myfs.new of=/dev/loop0
+# losetup -d /dev/loop0
+# rm -f ./tmpfs
+mv tmpfs $1
