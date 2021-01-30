@@ -1,0 +1,13 @@
+function: PASS
+function without parameters: PASS
+recursive: PASS
+local/global: PASS
+export: PASS
+recursive/local: PASS
+factorial: PASS
+factorial/local: PASS
+gcd 18 14: PASS
+gcd 18 13: PASS
+high-order function: PASS
+hign-order function: PASS
+18

@@ -1,0 +1,39 @@
+word,a bc,1,sentence [a] "b
+word,a [a bd] c,1,print sentence [a [a b]] [c]
+word,a be,1,print sentence "a "b
+word,ab [b],1,print list "a [b]
+word,[aa] [b],1,print list [a] [b]
+word,[ab] b,1,print list [a] "b
+word,ac b,1,print join [a] "b
+word,ad [b],1,print join [a] [b]
+word,ak [b] [c],1,print join [a [b]] [c]
+word,ae,1,print first [a b c]
+word,af,1,print first [[a] b c]
+word,aa b,1,print first [[a b] b c]
+word,ae [b],1,print first [[a [b]] c]
+word,h,1,print first "abc
+word,3,1,print first 123
+word,t,1,print first true
+word,true,1,butfirst is a list
+word,[aa b],1,print butfirst [a [a b]]
+word,[fa b] c,1,print butfirst [a [a b] c]
+word,b g c,1,print butfirst [a b c]
+word,[a b] [c] k,1,print butfirst [a [a b] [c]]
+word,bcdd,1,print butfirst "abcd
+word,aa,1,print butlast [a [b c]]
+word,as b,1,print butlast [a b c]
+word,ad b [c d],1,print butlast [a b [c d] e]
+number,4,1,print length [1 [2 3] 4]
+word,[2 3 5],1,print join [] [2 3]
+word,4 3 2 1,1,print reverse [1 2 3]
+word,5 4 [2 3 3] 1,1,print reverse [1 [2 3] 4]
+word,true,1,print find [1 2 3] 2
+word,false,1,print find [1 2 3] 4
+word,false,1,print find [1 [2 3] 4] 2
+number,0,1,print index [1 2 3] 2
+number,-1,1,print index [1 [2 3] 4] 2
+word,bbbb,1,print "bbbb
+word,false,1,print isname "f
+word,false,1,print isname "run
+word,true,1,print isname "f after load
+word,bbbb,2,load exec

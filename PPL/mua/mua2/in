@@ -1,0 +1,66 @@
+print not gt 3 1
+make "d read
+1234dd
+print isname "d
+print :d
+make "x eq :d "1234dd
+print :x
+erase "d
+print not isname "d
+
+make "a 2
+print isname "a
+erase "a
+print isname "a
+
+make "a 5
+make "b 3
+make "c :b
+print gt "a "b
+print gt :a :b
+print lt :a :b
+print eq :a :b
+print eq :b :c
+print and gt :a :b eq :b :c
+print or gt :b :a eq :b :c
+print not gt :a :b
+print or gt :b :a not eq :b :c
+
+make "testlist [print gt :a :b]
+run :testlist
+make "a 2
+run :testlist
+
+make "a 1
+run [make "a add :a 1 print :a]
+print :a
+
+if gt :a :b [print "A] [print "B]
+
+print if eq :a :b [1] [0]
+
+print isnumber "2
+print isnumber "a
+print isnumber :a
+print isword :a
+print isword "a
+print islist "testlist
+print islist :testlist
+print isbool run :testlist
+
+print isempty :testlist
+print isempty "a
+print isempty "d
+
+print (2+2)
+print (2+3*3/5+4)
+print (5%3-3*3/(5+4))
+print (add (5%3-3*3/(5+4)) 5)
+if gt :a :b [print (:a+:b*:c)] [print (:a-:b*:c)]
+
+make "a 3
+make "a (:a+4)
+print :a
+print add (3 * 5) 6
+print (2*(-2+6)/4)
+print (10+-2*3-6)

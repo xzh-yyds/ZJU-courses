@@ -1,0 +1,13 @@
+print "abcd12
+make "a 16
+print :a
+make "b "a
+print thing :b
+make "c mul add :a 13 :a
+print sub :c "6
+print div 12 5
+print mod 12 5
+make "d read
+1234dd
+make "e print :d
+print :e

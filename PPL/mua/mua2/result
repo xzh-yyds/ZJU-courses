@@ -1,0 +1,44 @@
+ not gt: PASS
+ isname: PASS
+ read: PASS
+ eq: PASS
+ earse: PASS
+ isname: PASS
+ earse: PASS
+ gt: PASS
+ gt: PASS
+ lt: PASS
+ eq: PASS
+ eq: PASS
+ and: PASS
+ or: PASS
+ not: PASS
+ or not: PASS
+ run: PASS
+ run again: PASS
+ run : PASS
+ after run : PASS
+ if: PASS
+ if: PASS
+ isnumber: PASS
+ isnumber: PASS
+ isnumber: PASS
+ isword: PASS
+ isword: PASS
+ islist: PASS
+ islist: PASS
+ run: PASS
+ lisbool: PASS
+ isempty: PASS
+ isempty: PASS
+ isempty: PASS
+ expression: PASS
+ expression: PASS
+ expression with mod: PASS
+ expression with add: PASS
+ expreesion with thing: PASS
+ expreesion with thing: PASS
+ expreesion with add: PASS
+ expreesion with negative: PASS
+ expreesion with negative: PASS
+50

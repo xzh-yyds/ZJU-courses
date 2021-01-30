@@ -1,0 +1,8 @@
+word,abcd12,1,print
+number,16,1,make
+number,16,2,thing
+number,458.0,1,elementary calculation
+number,2.4,1,division
+number,2.0,1,mod
+word,1234dd,2,read
+word,1234dd,1,print returns

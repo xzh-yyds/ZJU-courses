@@ -1,0 +1,97 @@
+print sentence [a] "bc
+print sentence [a [a bd]] [c]
+print sentence "a "be
+print list "ab [b]
+print list [aa] [b]
+print list [ab] "b
+print join [ac] "b
+print join [ad] [b]
+print join [ak [b]] [c]
+print first [ae b c]
+print first [[af] b c]
+print first [[aa b] b c]
+print first [[ae [b]] c]
+print first "habc
+print first 3123
+print first true
+print islist butfirst [a b]
+print butfirst [a [aa b]]
+print butfirst [a [fa b] c]
+print butfirst [a b g c]
+print butfirst [a [a b] [c] k]
+print butfirst "abcdd
+print butlast [aa [b c]]
+print butlast [as b c]
+print butlast [ad b [c d] e]
+make "length
+[
+	[x]
+	[
+		if isempty :x
+			[return 0]
+			[return add length butfirst :x 1]
+	]
+]
+print length [1 [2 3] 4 5]
+print join [] [2 3 5]
+make "reverse [
+    [x]
+    [
+        if isempty :x
+            [return :x]
+            [
+                if islist :x
+                    [return join reverse butfirst :x first :x]
+                    [return word reverse butfirst :x first :x]
+            ]
+    ]
+]
+print reverse [1 2 3 4]
+print reverse [1 [2 3 3] 4 5]
+make "find [
+    [lst x]
+    [
+        if isempty :lst
+            [return false]
+            [
+                if eq first :lst :x
+                    [return true]
+                    [return find butfirst :lst :x]
+            ]
+    ]
+]
+print find [1 2 3] 3
+print find [1 2 3] 5
+print find [1 [2 3] 4] 2
+make "index [
+    [lst x]
+    [
+        if isempty :lst
+            [return -1]
+            [
+                if eq first :lst :x
+                    [return 0]
+                    [
+                        make "i index butfirst :lst :x
+                        if eq :i -1
+                            [return -1]
+                            [return add :i 1]
+                    ]
+            ]
+    ]
+]
+print index [1 2 3] 1
+print index [1 [2 3] 4] 2
+make "f
+[
+	[]
+	[print "a]
+]
+print "bbbb
+save "a.mua
+erall
+print isname "f
+print isname "run
+load "a.mua
+print isname "f
+load "b.mua

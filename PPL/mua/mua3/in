@@ -1,0 +1,83 @@
+make "a 3
+make "a (:a+4)
+make "f [
+	[a]
+	[return (:a*:a+1)]
+]
+print f 3
+make "f
+[
+	[]
+	[print "a]
+]
+f
+make "n 5
+make "f [
+	[n]
+	[
+		if lt :n 2
+			[return 1]
+			[return mul :n f sub :n 1]
+	]
+]
+print f :n
+print :n
+make "let [
+	[__a __b]
+	[
+		make :__a :__b
+		export :__a
+	]
+]
+let "a 6
+print :a
+make "a 1
+make "repeat [
+    [n s]
+    [
+		if eq :n 0 
+			[] 
+			[run :s repeat sub :n 1 :s]
+	]
+]
+repeat 4 [make "a (:a+1)]
+print :a
+make "n 5
+make "factorial [
+	[n]
+	[
+		if lt :n 2
+			[return 1]
+			[return (:n * factorial (:n-1))]
+	]
+]
+print factorial :n
+print :n
+make "gcd [
+    [a b]
+    [
+        if eq :b 0
+            [return :a]
+            [return gcd :b (:a % :b)]
+    ]
+]
+print gcd 18 14
+print gcd 18 13
+make "sum [
+    [term a next b]
+    [
+        if gt :a :b
+            [return 0]
+            [return add term :a sum :term next :a :next :b]
+    ]
+]
+make "sum_term [
+    [x]
+    [return :x]
+]
+make "sum_next [
+    [x]
+    [return add :x 1]
+]
+print sum :sum_term 1 :sum_next 10
+print sum [[x] [return add :x :x]] 1 [[x] [return add :x 1]] 10

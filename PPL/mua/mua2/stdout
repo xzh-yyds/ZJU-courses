@@ -1,0 +1,43 @@
+word, false, 1, not gt
+word, true, 1, isname
+word, 1234dd, 1, read
+word, true, 1, eq
+word, true, 1, earse
+word, true, 1, isname
+word, false, 1, earse
+word, false, 1, gt
+word, true, 1, gt
+word, false, 1, lt
+word, false, 1, eq
+word, true, 1, eq
+word, true, 1, and
+word, true, 1, or
+word, false, 1, not
+word, false, 1, or not
+word, true, 1, run
+word, false, 2, run again
+number, 2.0, 1, run 
+number, 2.0, 2, after run 
+word, B, 1, if
+number, 0, 2, if
+word, true, 1, isnumber
+word, false, 1, isnumber
+word, true, 1, isnumber
+word, false, 1, isword
+word, true, 1, isword
+word, false, 1, islist
+word, true, 1, islist
+word, false, 1, run
+word, true, 2, lisbool
+word, false, 1, isempty
+word, false, 1, isempty
+word, false, 1, isempty
+number, 4.0, 1, expression
+number, 7.8, 1, expression
+number, 1.0, 1, expression with mod
+number, 6.0, 1, expression with add
+number, -7.0, 1, expreesion with thing
+number, 7.0, 1, expreesion with thing
+number, 21.0, 2, expreesion with add
+number, 2.0, 2, expreesion with negative
+number, -2.0, 2, expreesion with negative

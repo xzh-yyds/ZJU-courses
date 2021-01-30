@@ -1,0 +1,13 @@
+number, 10.0, 1,function
+word, a, 1,function without parameters
+number, 120.0, 2,recursive
+number, 5, 1,local/global
+number, 6, 2,export
+number, 1, 2,recursive/local
+number, 120.0, 1,factorial
+number, 5, 2,factorial/local
+number, 2.0, 1,gcd 18 14
+number, 1.0, 1,gcd 18 13
+number, 55, 2,high-order function
+number, 110, 2,hign-order function
+

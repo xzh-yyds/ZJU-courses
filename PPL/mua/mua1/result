@@ -1,0 +1,9 @@
+print: PASS
+make: PASS
+thing: PASS
+elementary calculation: PASS
+division: PASS
+mod: PASS
+read: PASS
+print returns: PASS
+10
