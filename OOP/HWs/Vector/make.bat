@@ -1,1 +1,0 @@
-g++ Vector.h Vector.cpp main.cpp -o test
